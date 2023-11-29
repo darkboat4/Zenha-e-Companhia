@@ -23,6 +23,7 @@ body{
     width: 60%;
     height: 95%;
     background-size: contain;   
+    background-repeat: no-repeat;
 }
 .infos{
     width: 35%;
