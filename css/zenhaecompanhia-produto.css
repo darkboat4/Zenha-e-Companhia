@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction:column;
+    transition: .5s ease;
+
+}
+.container{
+    margin-top: 4%;
+    width: 60vw;
+    height: 75vh;
+    background-color: whitesmoke;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+.image{
+    width: 60%;
+    height: 95%;
+    background-size: contain;   
+}
+.infos{
+    width: 35%;
+    height: 95%;
+    border: 1px solid rgb(255, 255, 255);
+}
+.nome{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+.info-produ{
+    height: 60%;
+}
+.botam{
+    height: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botam div{
+    width: 75%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(39, 195, 39);
+    border: 1px black solid;
+}
+.botam div:hover{
+    box-shadow: 0px 0px 20px 7px rgb(76, 255, 76);
+}
